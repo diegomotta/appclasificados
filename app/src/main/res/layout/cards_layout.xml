@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        card_view:cardCornerRadius="5dp"
+        android:id="@+id/card_view"
+        android:elevation="4dp"
+            android:translationZ="5dp"
+    android:foreground="@drawable/card_foreground"
+        android:clickable="true"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/txtTitulo"
+                android:textStyle="bold"
+                android:text=""
+                android:textColor="@color/primary_text"
+                android:layout_marginLeft="10dp"
+                android:textSize="14dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/txtFecha"
+                android:layout_below="@+id/txtTitulo"
+                android:layout_marginLeft="10dp"
+                android:textSize="12dp"
+                android:textColor="@color/secondary_text"
+                android:maxLength="10"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/txtContenido"
+                android:text=""
+                android:layout_below="@+id/txtFecha"
+                android:layout_marginLeft="10dp"
+                android:ellipsize="end"
+                android:textColor="@color/secondary_text"
+                android:maxLines="5"/>
+
+        </RelativeLayout>
+
+
+
+</android.support.v7.widget.CardView>

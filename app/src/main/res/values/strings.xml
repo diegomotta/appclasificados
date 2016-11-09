@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Clasificados</string>
+    <string name="auth0_client_id">D9WpZ8ndRmczKxvZ29kLNbiWJWQJHpA7</string>
+    <string name="auth0_domain">diegox1234.auth0.com</string>
+</resources>
